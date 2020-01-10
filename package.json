@@ -1,0 +1,22 @@
+{
+  "name": "marp-cli-example",
+  "version": "0.0.1",
+  "author": "Pedro Ferreira <pedro.ferreira@cern.ch>",
+  "license": "CC BY-NC-SA",
+  "private": true,
+  "scripts": {
+    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
+    "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpx \"assets/**/*\" dist/assets",
+    "now-build": "npm run -s deck",
+    "og-image": "marp PITCHME.md -o dist/og-image.jpg",
+    "start": "marp -s ."
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.16.2",
+    "cpx": "^1.5.0",
+    "rimraf": "^3.0.0"
+  },
+  "dependencies": {
+    "eslint": "^6.8.0"
+  }
+}
