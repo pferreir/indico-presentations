@@ -5,9 +5,11 @@
   "license": "CC BY-NC-SA",
   "private": true,
   "scripts": {
-    "build": "rimraf dist && npm run -s og-image && npm run -s deck",
+    "build": "rimraf dist && npm run -s og-image && npm run -s deck && npm run -s build-pptx && npm run -s build-pdf",
     "deck": "marp --no-stdin PITCHME.md -o dist/index.html && cpx \"assets/**/*\" dist/assets",
     "now-build": "npm run -s deck",
+    "build-pptx": "marp --no-stdin PITCHME.md -o dist/presentation.pptx",
+    "build-pdf": "marp --no-stdin PITCHME.md -o dist/presentation.pdf",
     "og-image": "marp PITCHME.md -o dist/og-image.jpg",
     "start": "marp -s ."
   },
