@@ -2,8 +2,8 @@ name: GitHub Pages
 
 on:
   push:
-    branches:
-      - master
+    branches-ignore:
+      - gh-pages
 
 jobs:
   build:
@@ -31,12 +31,16 @@ jobs:
           npm i puppeteer --no-save
 
       - name: Build Marp slide deck
+        id: build_slides
         run: |
           CHROME_PATH=$(node .puppeteer.js) npm run build
           touch ./dist/.nojekyll
+          echo "::set-output name=target_folder::${github_ref/refs\/heads\//}"
         env:
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
           LANG: en-US
+          github_ref: ${{ github.ref }}
+
 
       - name: Deploy to GitHub pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -45,3 +49,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
+          TARGET_FOLDER: ${{ steps.build_slides.outputs.target_folder }}
