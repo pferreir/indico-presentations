@@ -105,15 +105,15 @@ section {
 
 ---
 
-![bg 80%](assets/indico_meeting_header.png)
+![bg width:800px](assets/indico_meeting_header.png)
 
 ---
 
-![bg 80%](assets/indico_meeting_payments.png)
+![bg width:600px](assets/indico_meeting_payments.png)
 
 ---
 
-![bg 80%](assets/indico_vehicle.png)
+![bg width:600px](assets/indico_vehicle.png)
 
 ---
 
