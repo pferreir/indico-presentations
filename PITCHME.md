@@ -32,7 +32,13 @@ h3 {
 ---
 
 ### [getindico.io](https://getindico.io)
-#### [@getindico](https://twitter.com/getindico)
+#### ![twitter width:50px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
+
+<style scoped>
+img {
+    vertical-align: middle;
+}
+</style>
 
 ---
 
