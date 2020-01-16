@@ -28,6 +28,8 @@ h3 {
 }
 </style>
 
+<!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • https://git.io/JvvFR -->
+
 ---
 
 ![bg left 90%](assets/indico_main_page.png)
@@ -74,11 +76,32 @@ section {
 
 ---
 
+![bg](assets/cms_2.jpg)
+![bg](assets/cms_1.jpg)
+
+<!-- _footer: © Copyright CERN --->
+
+<style scoped>
+footer {
+    color: white;
+}
+</style>
+
+---
+
+![bg](assets/next_1.jpg)
+![bg](assets/cc_2.jpg)
+
+<!-- _footer: © Copyright 2018-2020 CERN --->
+
+---
+
 ### CERN
 
 - **~10.000** people on campus
 - **~230** meeting rooms
 - **~80.000** events/year
+  * **700.000** events total
 - (Distributed) Meetings
 - Conferences, workshops
 
