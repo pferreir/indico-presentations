@@ -155,6 +155,8 @@ footer {
 ### [getindico.io](https://getindico.io)
 #### ![twitter width:50px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
 
+![bg right width: 50%](assets/hexsticker.svg)
+
 <style scoped>
 img {
     vertical-align: middle;
