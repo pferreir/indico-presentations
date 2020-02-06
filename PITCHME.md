@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Indico - Test Presentation
-description: A boilerplate presentation
+title: Indico - Solid Brainstorming
+description: Introduction to Indico
 theme: indico
 paginate: true
 _paginate: false
