@@ -56,6 +56,7 @@ h3 {
  - **2013** - First **Workshop**
  - **2015** - **UNOG** starts using it
  - **2017** - Indico 2.0 (**rewrite**)
+ - **2019** - Modern ES and React
 
 <style scoped>
 section {
@@ -99,10 +100,10 @@ Events
 {
     "@context": "http://schema.org",
     "@type": "Event",
-    "name": "CERN-Solid brainstorming  meeting",
+    "name": "CERN-Solid brainstorming meeting",
     "startDate": "2020-02-07T10:00:00+01:00",
     "endDate": "2020-02-07T16:55:00+01:00",
-    "description": "The aim of this first brainstorming\u00a0 meeting is to exchange technical information …",
+    "description": "The aim of this first brainstorming meeting is to exchange technical information …",
     "location": {
         "@type": "Place",
         "address": "No address set",
