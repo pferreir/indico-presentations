@@ -5,7 +5,7 @@ description: An overview of the Indico Project as well as its usage at CERN
 theme: indico
 paginate: true
 _paginate: false
-footer: CC BY-NC-SA 4.0 • https://git.io/JvvFR
+footer: CC BY-NC-SA 4.0 • https://git.io/JtQmL
 ---
 
 <!-- _footer: '' -->
@@ -28,7 +28,7 @@ h3 {
 }
 </style>
 
-<!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • https://git.io/JvvFR -->
+<!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • https://git.io/JtQmL -->
 
 ---
 
@@ -40,7 +40,13 @@ h3 {
  - Core Developed at **CERN**
  - **Collaborative effort** - Open Source
  - \> **70 developers** over the years
- - \> **150 servers** world wide
+ - ~ **250 servers** world wide
+
+---
+
+### Community
+
+![width:700px](assets/community_map.png)
 
 ---
 
@@ -56,6 +62,7 @@ h3 {
  - **2013** - First **Workshop**
  - **2015** - **UNOG** starts using it
  - **2017** - Indico 2.0 (**rewrite**)
+ - **2021** - Indico 3.0 (**Python 3**)
 
 <style scoped>
 section {
@@ -65,14 +72,26 @@ section {
 
 ---
 
-### Philosophy
+### Open Source
 
- - "Agnostic" **core**
- - **Plugins** 🧩
- - **Themes** 🎨
- - Developed **publicly**
+- Free **redistribution**
+- Distributed **peer review**
+- **Transparency**
+- **Community** with common goals
 
 ![bg left 80%](assets/opensource.svg)
+
+---
+
+### Open Source
+
+- Powering most of the internet
+  - MongoDB, ElasticSearch, MySQL, PostgreSQL, Apache, **Linux**...
+- **CERN** was a pioneer
+  - World Wide Web
+  - Indico, Invenio, ROOT...
+
+![bg left 80%](assets/opensource_news.png)
 
 ---
 
@@ -100,12 +119,19 @@ footer {
 
 - **~10.000** people on campus
 - **~230** meeting rooms
-- **~80.000** events/year
-  * **700.000** events total
+- **~80.000** events/year (pre-COVID)
+  * **800.000** events total
 - (Distributed) Meetings
 - Conferences, workshops
 
 ![bg left](assets/cern_aerial.png)
+
+---
+
+### Adoption at CERN
+##### Events by year
+
+![width:500px](assets/event_stats_cern.png)
 
 ---
 
@@ -116,7 +142,18 @@ footer {
 ![width:800px](assets/indico_rb.png)
 
 ---
-### Plugins
+
+### Philosophy
+
+ - "Agnostic" **core**
+ - Extension through **plugins** 🧩
+ - **Themes** 🎨 (customization)
+
+![bg left](assets/cogs.jpg)
+
+---
+
+### Extensions
 
  - Video conferencing 📹
  - Payment Systems 💰
@@ -127,18 +164,126 @@ footer {
  - Internal Workflows (e.g. recording, visitors)
 
 ---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 3em;
+    }
+</style>
+
+### Zoom
 
 ![bg width:800px](assets/indico_meeting_header.png)
 
 ---
+<style scoped>
+    section {
+        justify-content: end;
+        padding-bottom: 2em;
+    }
+</style>
+
+![bg width:600px](assets/indico_zoom_creation.png)
+
+https://github.com/indico/indico-plugins/tree/master/vc_zoom
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 3em;
+    }
+</style>
+
+### Electronic Payment
 
 ![bg width:600px](assets/indico_meeting_payments.png)
 
 ---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 3em;
+    }
+</style>
 
-![bg width:600px](assets/indico_vehicle.png)
+### Workflows
+
+![bg width:40%](assets/logistics.png)
 
 ---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 3em;
+    }
+</style>
+
+### Access Registration
+
+![bg width:500px](assets/indico_vehicle.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 1em;
+    }
+</style>
+
+### Webcast / Recording
+
+![bg width:40%](assets/logistics_2.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+    h3 {
+        margin-top: 1em;
+    }
+</style>
+
+### Hotdesks
+
+![bg width:60%](assets/burotel.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
+
+### Themes / Customization
+
+![bg width:60%](assets/ilcagenda.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
+
+### Themes / Customization
+
+![bg width:50%](assets/conference.png)
+
+
+---
+
 
 ![bg left 110%](assets/forum.png)
 
