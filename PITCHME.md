@@ -129,9 +129,10 @@ footer {
 ---
 
 ### Adoption at CERN
-##### Events by year
 
-![width:500px](assets/event_stats_cern.png)
+
+![height:400px](assets/event_stats_cern.svg)
+
 
 ---
 
@@ -279,8 +280,18 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:50%](assets/conference.png)
+![bg width:50%](assets/meeting.png)
 
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
+
+### Themes / Customization
+
+![bg width:50%](assets/conference.png)
 
 ---
 
