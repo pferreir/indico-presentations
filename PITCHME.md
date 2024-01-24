@@ -18,7 +18,7 @@ footer: CC BY-NC-SA 4.0 • https://git.io/JtQmL
 ![width:400px](assets/theme/logo.svg)
 *from* **CERN** *to the* 🌍
 
-### Pedro Ferreira (CERN)
+### Pedro Ferreira (CERN), Dominic Hollis (CERN)
 
 <style scoped>
 h3 {
@@ -40,13 +40,13 @@ h3 {
  - Core Developed at **CERN**
  - **Collaborative effort** - Open Source
  - \> **70 developers** over the years
- - ~ **250 servers** world wide
+ - ~ **250 servers** world wide <!-- TODO -->
 
 ---
 
 ### Community
 
-![width:700px](assets/community_map.png)
+![width:700px](assets/community_map.png) <!-- TODO -->
 
 ---
 
@@ -63,6 +63,7 @@ h3 {
  - **2015** - **UNOG** starts using it
  - **2017** - Indico 2.0 (**rewrite**)
  - **2021** - Indico 3.0 (**Python 3**)
+ - **2023** - **1 Million Events** surpassed at CERN 🎉
 
 <style scoped>
 section {
@@ -117,14 +118,14 @@ footer {
 
 ### CERN
 
-- **~10.000** people on campus
+- **~17.000** people on campus <!-- 2022 stats -->
 - **~230** meeting rooms
-- **~80.000** events/year (pre-COVID)
-  * **800.000** events total
+- **100.000+** events/year
+  * **1.000.000+** events total
 - (Distributed) Meetings
 - Conferences, workshops
 
-![bg left](assets/cern_aerial.png)
+![bg left](assets/cern_science_gateway_above.png)
 
 ---
 
@@ -269,7 +270,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:60%](assets/ilcagenda.png)
+![bg width:55%](assets/ilcagenda.png)
 
 ---
 <style scoped>
@@ -296,7 +297,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 ---
 
 
-![bg left 110%](assets/forum.png)
+![bg left 95%](assets/forum.png)
 
 ### Conclusion
  - Extensible event management system
