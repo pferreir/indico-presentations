@@ -39,14 +39,19 @@ h3 {
  - **Event Management** System
  - Core Developed at **CERN**
  - **Collaborative effort** - Open Source
- - \> **70 developers** over the years
- - ~ **250 servers** world wide <!-- TODO -->
+ - **70+ developers** over the years
+ - **250+ servers** world wide
 
 ---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
 
 ### Community
 
-![width:700px](assets/community_map.png) <!-- TODO -->
+![drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/community_map.png)
 
 ---
 
@@ -76,25 +81,12 @@ section {
 ### FOSS at CERN
 
 - Open science is at the core of CERN's mission
-- Indico, Invenio, Zenodo
+- Indico, Invenio, Zenodo...
 - CERN Open Hardware Licence (CERN OHL)
 - CERN OSPO (Open Source Program Office)
 
 ![bg left 80%](assets/opensource.svg)
 
-<!--
----
-
-### Open Source
-
-- Powering most of the internet
-  - MongoDB, ElasticSearch, MySQL, PostgreSQL, Apache, **Linux**...
-- **CERN** was a pioneer
-  - World Wide Web
-  - Indico, Invenio, ROOT...
-
-![bg left 80%](assets/opensource_news.png)
--->
 ---
 
 ![bg](assets/cms_2.jpg)
@@ -147,7 +139,7 @@ footer {
     }
 </style>
 
-![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_rb.png)
+![bg 80% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_rb.png)
 
 ---
 
