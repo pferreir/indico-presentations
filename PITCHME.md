@@ -32,7 +32,7 @@ h3 {
 
 ---
 
-![bg left 90%](assets/indico_main_page.png)
+![bg left 90% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_main_page.png)
 
 ### ![width:200px](assets/theme/logo.svg)
 
@@ -73,15 +73,16 @@ section {
 
 ---
 
-### Open Source
+### FOSS at CERN
 
-- Free **redistribution**
-- Distributed **peer review**
-- **Transparency**
-- **Community** with common goals
+- Open science is at the core of CERN's mission
+- Indico, Invenio, Zenodo
+- CERN Open Hardware Licence (CERN OHL)
+- CERN OSPO (Open Source Program Office)
 
 ![bg left 80%](assets/opensource.svg)
 
+<!--
 ---
 
 ### Open Source
@@ -93,7 +94,7 @@ section {
   - Indico, Invenio, ROOT...
 
 ![bg left 80%](assets/opensource_news.png)
-
+-->
 ---
 
 ![bg](assets/cms_2.jpg)
@@ -112,7 +113,7 @@ footer {
 ![bg](assets/next_1.jpg)
 ![bg](assets/cc_2.jpg)
 
-<!-- _footer: © Copyright 2018-2020 CERN --->
+<!-- _footer: © Copyright CERN --->
 
 ---
 
@@ -140,8 +141,13 @@ footer {
 ![](assets/event_types.svg)
 
 ---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
 
-![width:800px](assets/indico_rb.png)
+![width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_rb.png)
 
 ---
 
@@ -177,7 +183,7 @@ footer {
 
 ### Zoom
 
-![bg width:800px](assets/indico_meeting_header.png)
+![bg width:800px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_meeting_header.png)
 
 ---
 <style scoped>
@@ -187,7 +193,7 @@ footer {
     }
 </style>
 
-![bg width:600px](assets/indico_zoom_creation.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_zoom_creation.png)
 
 https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
@@ -203,7 +209,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Electronic Payment
 
-![bg width:600px](assets/indico_meeting_payments.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_meeting_payments.png)
 
 ---
 <style scoped>
@@ -217,7 +223,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Workflows
 
-![bg width:40%](assets/logistics.png)
+![bg width:40% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/logistics.png)
 
 ---
 <style scoped>
@@ -231,7 +237,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Access Registration
 
-![bg width:500px](assets/indico_vehicle.png)
+![bg width:500px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_vehicle.png)
 
 ---
 <style scoped>
@@ -245,7 +251,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Webcast / Recording
 
-![bg width:40%](assets/logistics_2.png)
+![bg width:40% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/logistics_2.png)
 
 ---
 <style scoped>
@@ -259,7 +265,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Hotdesks
 
-![bg width:60%](assets/burotel.png)
+![bg width:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/burotel.png)
 
 ---
 <style scoped>
@@ -270,7 +276,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:55%](assets/ilcagenda.png)
+![bg width:55% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/ilcagenda.png)
 
 ---
 <style scoped>
@@ -281,7 +287,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:50%](assets/meeting.png)
+![bg width:50% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/meeting.png)
 
 ---
 <style scoped>
@@ -292,12 +298,23 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 
 ### Themes / Customization
 
-![bg width:50%](assets/conference.png)
+![bg width:50% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/conference.png)
+
+---
+<style scoped>
+    section {
+        justify-content: start;
+    }
+</style>
+
+### Check-in App (PWA)
+
+![bg width:65% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/checkin_app.png)
 
 ---
 
 
-![bg left 95%](assets/forum.png)
+![bg left 95% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/forum.png)
 
 ### Conclusion
  - Extensible event management system
@@ -310,6 +327,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
 ---
 
 ### [getindico.io](https://getindico.io)
+#### ![mastodon width:50px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
 #### ![twitter width:50px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
 
 ![bg right width: 50%](assets/hexsticker.svg)
