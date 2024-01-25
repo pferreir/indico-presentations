@@ -5,7 +5,7 @@ description: An overview of the Indico Project as well as its usage at CERN
 theme: indico
 paginate: true
 _paginate: false
-footer: CC BY-NC-SA 4.0 • https://git.io/JtQmL
+footer: CC BY-NC-SA 4.0 • https://cern.ch/ind-fos-24
 ---
 
 <!-- _footer: '' -->
@@ -28,7 +28,7 @@ h3 {
 }
 </style>
 
-<!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • https://git.io/JtQmL -->
+<!-- _footer: CC BY-NC-SA 4.0 • Indico and CERN logos: © Copyright CERN • https://cern.ch/ind-fos-24 -->
 
 ---
 
