@@ -1,6 +1,6 @@
 ---
 marp: true
-title: Indico - from CERN to the World
+title: Indico - an event management system
 description: An overview of the Indico Project as well as its usage at CERN
 theme: indico
 paginate: true
@@ -16,7 +16,7 @@ footer: CC BY-NC-SA 4.0 • https://cern.ch/ind-fos-24
 ---
 
 ![width:400px](assets/theme/logo.svg)
-*from* **CERN** *to the* 🌍
+*an event management system*
 
 ### Pedro Ferreira (CERN), Dominic Hollis (CERN)
 
@@ -37,21 +37,24 @@ h3 {
 ### ![width:200px](assets/theme/logo.svg)
 
  - **Event Management** System
+ - **Collaborative effort** - MIT License
  - Core Developed at **CERN**
- - **Collaborative effort** - Open Source
+ - With contributions from the **United Nations**, **Max-Planck Institute for Physics** and many others!
  - **70+ developers** over the years
- - **250+ servers** world wide
 
 ---
-<style scoped>
-    section {
-        justify-content: start;
-    }
-</style>
 
-### Community
+![bg 100% left](assets/community_map.png)
 
-![drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/community_map.png)
+*The most popular event management system you never heard about*
+
+ - **300+ servers**
+ - **> 350K users**
+ - Initial growth in research, but growing beyond it
+   - [indico.un.org](https://indico.un.org)
+   - [events.canonical.org](https://events.canonical.com/)
+   - [indico.gnome.org](https://indico.gnome.org)
+   - [lpc.events](https://lpc.events)
 
 ---
 
@@ -61,31 +64,21 @@ h3 {
 
  - **1999** - **CDS Agenda**
  - **2002** - **EU Project**
- - **2004** - First **Conference**
+ - **2004** - Indico in **Production**
  - **2007** - **Room Booking**
- - **2009** - **Video Conferencing**
+ - **2008** - **Interface overhaul**
  - **2013** - First **Workshop**
- - **2015** - **UNOG** starts using it
+ - **2015** - The **UN** starts using it
  - **2017** - Indico 2.0 (**rewrite**)
  - **2021** - Indico 3.0 (**Python 3**)
  - **2023** - **1 Million Events** surpassed at CERN 🎉
+ - **2024** - **20 years!**
 
 <style scoped>
 section {
     font-size: 1.7em;
 }
 </style>
-
----
-
-### FOSS at CERN
-
-- Open science is at the core of CERN's mission
-- Indico, Invenio, Zenodo...
-- CERN Open Hardware Licence (CERN OHL)
-- CERN OSPO (Open Source Program Office)
-
-![bg left 80%](assets/opensource.svg)
 
 ---
 
@@ -106,6 +99,28 @@ footer {
 ![bg](assets/cc_2.jpg)
 
 <!-- _footer: © Copyright CERN --->
+
+---
+
+### FOSS at CERN
+
+- Open science is at the core of CERN's mission
+- Indico, Invenio, Zenodo, ROOT, ...
+- CERN Open Hardware Licence (CERN OHL)
+- CERN OSPO (Open Source Program Office)
+
+*also **using** a lot of FOSS!*
+
+![bg left 80%](assets/opensource.svg)
+
+---
+
+### A bit of publicity...
+![bg left 80%](assets/cern_at_fosdem.svg)
+
+- **Sat 13:30 - K.3.201** - CERN's Open Source Storage Systems
+- **Sat 14:20 - K.3.201** - CephFS at CERN in view of Disaster Recovery
+- **Sat 16:00 - UB4.132** - Unlocking Research Data Management with InvenioRDM
 
 ---
 
@@ -180,18 +195,6 @@ footer {
 ---
 <style scoped>
     section {
-        justify-content: end;
-        padding-bottom: 2em;
-    }
-</style>
-
-![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_zoom_creation.png)
-
-https://github.com/indico/indico-plugins/tree/master/vc_zoom
-
----
-<style scoped>
-    section {
         justify-content: start;
     }
     h3 {
@@ -241,7 +244,7 @@ https://github.com/indico/indico-plugins/tree/master/vc_zoom
     }
 </style>
 
-### Webcast / Recording
+### Recording of Events
 
 ![bg width:40% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/logistics_2.png)
 
