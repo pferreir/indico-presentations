@@ -160,7 +160,7 @@ footer {
 
 ### Philosophy
 
- - "Agnostic" **core**
+ - "General purpose" **core**
  - Extension through **plugins** 🧩
  - **Themes** 🎨 (customization)
 
@@ -232,7 +232,7 @@ footer {
 
 ### Access Registration
 
-![bg width:500px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/indico_vehicle.png)
+![bg width:600px drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/visitors.png)
 
 ---
 <style scoped>
@@ -246,7 +246,7 @@ footer {
 
 ### Recording of Events
 
-![bg width:40% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/logistics_2.png)
+![bg height:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/webcast.png)
 
 ---
 <style scoped>
@@ -258,7 +258,7 @@ footer {
     }
 </style>
 
-### Hotdesks
+### Hot desking
 
 ![bg width:60% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/burotel.png)
 
@@ -322,12 +322,16 @@ footer {
 ---
 
 ### [getindico.io](https://getindico.io)
-#### ![mastodon width:50px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
-#### ![twitter width:50px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
+
+![mastodon width:40px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
+![twitter width:40px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
 
 ![bg right width: 50%](assets/hexsticker.svg)
 
 <style scoped>
+p {
+    text-align: left;
+}
 img {
     vertical-align: middle;
 }
