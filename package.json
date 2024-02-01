@@ -14,11 +14,11 @@
     "start": "marp -s ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.23",
+    "@marp-team/marp-cli": "^3.4",
     "cpx": "^1.5",
-    "rimraf": "^3.0"
+    "rimraf": "^5"
   },
   "dependencies": {
-    "eslint": "^7.20"
+    "eslint": "^8"
   }
 }
