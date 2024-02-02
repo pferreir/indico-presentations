@@ -18,7 +18,7 @@ footer: CC BY-NC-SA 4.0 • https://cern.ch/ind-fos-24
 ![width:400px](assets/theme/logo.svg)
 *an event management system*
 
-### Pedro Ferreira (CERN), Dominic Hollis (CERN)
+### Pedro Ferreira, Dominic Hollis (CERN)
 
 <style scoped>
 h3 {
@@ -116,7 +116,7 @@ footer {
 ---
 
 ### A bit of publicity...
-![bg left 80%](assets/cern_at_fosdem.svg)
+![bg left:40%](assets/cern_at_fosdem.svg)
 
 - **Sat 13:30 - K.3.201** - CERN's Open Source Storage Systems
 - **Sat 14:20 - K.3.201** - CephFS at CERN in view of Disaster Recovery
@@ -165,6 +165,20 @@ footer {
  - **Themes** 🎨 (customization)
 
 ![bg left](assets/cogs.jpg)
+
+---
+![bg right](assets/hood.jpg)
+
+### Under the Hood
+
+ - Python 3 🐍
+ - PostgreSQL 🐘
+ - Flask
+ - Celery
+ - SQLAlchemy
+ - React
+ - Semantic UI React
+ - *among many others!*
 
 ---
 
@@ -308,7 +322,6 @@ footer {
 
 ---
 
-
 ![bg left 95% drop-shadow:0,5px,10px,rgba(0,0,0,.4)](assets/forum.png)
 
 ### Conclusion
@@ -324,9 +337,10 @@ footer {
 ### [getindico.io](https://getindico.io)
 
 ![mastodon width:40px](assets/theme/mastodon.svg) [@getindico@fosstodon.org](https://fosstodon.org/@getindico)
-![twitter width:40px](assets/theme/twitter.svg) [@getindico](https://twitter.com/getindico)
+![twitter width:40px](assets/theme/twitter.png) [@getindico](https://twitter.com/getindico)
+![matrix width:30px](assets/theme/matrix.svg) [@#indico:matrix.org](https://app.element.io/#/room/#indico:matrix.org) / indico@libera.chat
 
-![bg right width: 50%](assets/hexsticker.svg)
+![bg right:30% width: 60%](assets/hexsticker.svg)
 
 <style scoped>
 p {
